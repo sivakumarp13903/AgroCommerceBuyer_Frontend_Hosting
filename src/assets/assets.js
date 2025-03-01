@@ -9,7 +9,7 @@ import menu_3 from './Millets.jfif'
 import menu_4 from './cocunut.jfif'
 import menu_5 from './Maize.jfif'
 import menu_6 from './rice.jfif'
-import menu_7 from './Wheat.jfif'
+import menu_7 from './wheat.jfif'
 import menu_8 from './Barley.jfif'
 
 import food_1 from './food_1.png'
