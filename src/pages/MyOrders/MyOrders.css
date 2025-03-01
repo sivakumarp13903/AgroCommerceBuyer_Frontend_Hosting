@@ -1,0 +1,90 @@
+.orders-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.orders-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.orders-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.order-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.order-card:hover {
+    transform: scale(1.05);
+}
+
+.order-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.order-items {
+    font-size: 14px;
+    color: #555;
+}
+
+.order-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.order-count {
+    font-size: 14px;
+    color: #666;
+}
+
+.order-status {
+    font-size: 14px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.status-indicator {
+    color: red;
+    margin-right: 5px;
+}
+
+.track-order-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.track-order-btn:hover {
+    background-color: #0056b3;
+}
+
+.order-dropdown {
+    color: black !important;
+}
